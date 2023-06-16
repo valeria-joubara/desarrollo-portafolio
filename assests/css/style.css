@@ -72,8 +72,8 @@ body{
  }
 
 .cv-block.block-intro .avatar{
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     background-size: cover;
     background-repeat: no-repeat;
     margin: auto;
@@ -220,6 +220,11 @@ body{
 
 .page-footer .social-icons a:hover{
     opacity: 1;
+}
+
+.size-img-perfil{
+    width: 300px;
+    height: 300px;
 }
 
 @media (min-width: 768px) {
