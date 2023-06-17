@@ -234,6 +234,21 @@ body{
     transform: scale(1.05)
 }
 
+.ul-hobbies{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.ul-hobbies li{
+    display: flex; 
+    flex-direction: column; 
+    align-content: center; 
+}
+.li-margin{
+    margin-top: 10px;
+}
+
 @media (min-width: 768px) {
 
     .cv-block {
