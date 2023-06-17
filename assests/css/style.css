@@ -227,6 +227,13 @@ body{
     height: 300px;
 }
 
+.card{
+    transition: all0.3s;
+}
+.card:hover{
+    transform: scale(1.05)
+}
+
 @media (min-width: 768px) {
 
     .cv-block {
